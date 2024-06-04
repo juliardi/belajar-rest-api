@@ -1,0 +1,155 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "cbe64100c6984f6bb8ef5fadbf49f5e1",
+    "packages": [
+        {
+            "name": "kenphp/container",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kenphp/container.git",
+                "reference": "1d0d06caa67c8c5cceab91c78ff20eaf845368bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kenphp/container/zipball/1d0d06caa67c8c5cceab91c78ff20eaf845368bb",
+                "reference": "1d0d06caa67c8c5cceab91c78ff20eaf845368bb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0",
+                "psr/container": "^1.0"
+            },
+            "require-dev": {
+                "codeception/codeception": "^2.5",
+                "codeception/specify": "^1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ken\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "juliardi",
+                    "email": "ardi93@gmail.com"
+                }
+            ],
+            "description": "PSR-11 compliant PHP container",
+            "support": {
+                "issues": "https://github.com/kenphp/container/issues",
+                "source": "https://github.com/kenphp/container/tree/master"
+            },
+            "time": "2019-01-16T23:11:56+00:00"
+        },
+        {
+            "name": "kenphp/router",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kenphp/router.git",
+                "reference": "b3f1f6f8be3a01e520b3d191a999a9f7d6474ba5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kenphp/router/zipball/b3f1f6f8be3a01e520b3d191a999a9f7d6474ba5",
+                "reference": "b3f1f6f8be3a01e520b3d191a999a9f7d6474ba5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "codeception/codeception": "^2.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ken\\Router\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Muhammad Safri Juliardi",
+                    "email": "ardi93@gmail.com"
+                }
+            ],
+            "description": "Simple PHP Router",
+            "support": {
+                "issues": "https://github.com/kenphp/router/issues",
+                "source": "https://github.com/kenphp/router/tree/master"
+            },
+            "time": "2019-01-26T06:35:00+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "513e0666f7216c7459170d56df27dfcefe1689ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/513e0666f7216c7459170d56df27dfcefe1689ea",
+                "reference": "513e0666f7216c7459170d56df27dfcefe1689ea",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/container/issues",
+                "source": "https://github.com/php-fig/container/tree/1.1.2"
+            },
+            "time": "2021-11-05T16:50:12+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
